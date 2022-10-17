@@ -302,7 +302,7 @@ We are able to easily track the current activity of our search flow using `track
 
 Note that trackState is (currently) only available on asyncStores -- asyncReadable, asyncWritable, and asyncDerived.
 
-### asnycClient (BETA)
+### asyncClient (BETA)
 
 An asyncClient is a special kind of store that expands the functionality of another Loadable store. Creating an asyncClient allows you to start accessing the propeties of the object in your store before it has loaded. This is done by transforming all of the object's properties into asynchronous functions that will resolve when the store has loaded.
 
